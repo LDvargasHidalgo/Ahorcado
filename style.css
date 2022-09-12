@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+body{
+    margin: 0px;
+    background: url(img/fondo.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Combo', cursive;
+    min-height: 100vh;
+    font-size: 40px;
+ 
+}
+header{
+    background: black;
+    padding: 10px;
+    text-align: center; 
+    margin-bottom: 20px;   
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background:rgba(255, 255, 255, .7) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#imagen{
+    width: 250px;
+    height: 350px;
+    
+}
+
+#palabra_a_adivinar{
+    height: 3em;
+}
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    min-width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+#letras{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+#letras button{
+     padding: 6px;
+     font-size: 20px;
+     width: 30px;
+     padding: 6px 0;
+     text-align: center;
+     justify-content: center;
+     border-radius:5px ;
+     -webkit-border-radius:5px ;
+     -moz-border-radius:5px ;
+     -ms-border-radius:5px ;
+     -o-border-radius:5px ;
+}
+#jugar{
+    width: 150px;
+    height: 35px;
+    font-family: 'Combo', cursive;
+    font-size: 20px;
+    font-weight: 800;
+}
